@@ -1,0 +1,26 @@
+.header{
+  display:flex;
+  justify-content: center;
+
+  padding-block: 8.2rem;
+
+  background: #0D0D0D;
+}
+
+.header div{
+  display:flex;
+  align-items:center;
+  gap: 1rem;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.8rem;
+
+  color: #4EA8DE;
+}
+
+.title span{
+  color: hsla(239, 53%, 59%, 1);
+}

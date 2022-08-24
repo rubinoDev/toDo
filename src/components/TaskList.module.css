@@ -138,3 +138,13 @@ ul{
 ul:last-child{
   margin-bottom: 2rem;
 }
+
+@media (max-width: 768px){
+  .container{
+    width: 35rem;
+  }
+
+  .container input{
+    width: 25rem;
+  }
+}

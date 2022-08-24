@@ -38,12 +38,10 @@ main{
   border: 1px solid #0D0D0D;
   border-radius: 8px;
 
-  flex: none;
-  order: 0;
-  flex-grow: 1;
+  color: hsla(0, 0%, 95%, 1);
 }
 
-.container button{
+.createButton{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,9 +122,6 @@ main{
   padding: .2rem .8rem;
   gap: 1rem;
 
-  width: 2.5rem;
-  height: 1.9rem;
-
   background: #333333;
   border-radius: 999px;
 
@@ -134,4 +129,12 @@ main{
 
   font-weight: 700;
 
+}
+
+ul{
+  list-style:none;
+}
+
+ul:last-child{
+  margin-bottom: 2rem;
 }

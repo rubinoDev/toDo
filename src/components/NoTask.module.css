@@ -1,0 +1,26 @@
+.containerNoTask{
+  width:100%;
+  margin: 0 auto;
+  margin-top:3rem;
+
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+
+.containerNoTask img{
+  padding-bottom: 2rem;
+}
+
+.containerNoTask p{
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 140%;
+
+  color: #808080;
+}
+
+.containerNoTask p strong{
+  font-weight: 700;
+}

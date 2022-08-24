@@ -1,0 +1,44 @@
+.containerTask{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.6rem;
+
+  background: #262626;
+
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  margin-top: 2rem;
+}
+
+.containerTask div{
+  display:flex;
+  gap: 2rem;
+}
+
+.paragraph{
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 140%;
+
+  color: #F2F2F2;
+}
+
+.paragraphWithLineThrough{
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 140%;
+
+  text-decoration-line: line-through;
+
+  color: #808080;
+}
+
+.containerTask button{
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}

@@ -44,6 +44,9 @@ export function TaskList(){
   }
 
   function subtractCounterTasksFinished(){
+    if(counterTasksFinished === 0){
+      return
+    }
     setCounterTasksFinished(prevState => prevState - 1)
   }
 

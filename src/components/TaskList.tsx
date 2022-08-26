@@ -15,9 +15,12 @@ interface TasksProps{
 }
 
 export function TaskList(){
+  console.log('render')
   const [tasks, setTasks] = useState<TasksProps[]>([])
   const [newTaskText, setNewTaskText] = useState('')
   const [counterTasksFinished, setCounterTasksFinished] = useState(0)
+
+  const isNewTaskTextWithoutContent = newTaskText.length === 0;
 
   function handleCreateNewTask(){
     if(newTaskText === ''){
@@ -78,6 +81,7 @@ export function TaskList(){
           <button 
             className={styles.createButton}
             onClick={handleCreateNewTask}
+            disabled={isNewTaskTextWithoutContent}
             >
               Criar
             <img src={plus}/>
